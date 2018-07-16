@@ -5,15 +5,13 @@ using FString = std::string;
 using int32 = int;
 
 // all values intialised to zero
-struct FBullCowCount
-{
+struct FBullCowCount {
 	int32 Bulls = 0;
 	int32 Cows = 0;
 };
 
 
-enum class EWordStatus
-{
+enum class EWordStatus {
 	OK,
 	Not_Isogram,
 	Wrong_Length,
@@ -21,8 +19,7 @@ enum class EWordStatus
 };
 
 
-class FBullCowGame
-{
+class FBullCowGame {
 public:
 	FBullCowGame(); // constructor
 
