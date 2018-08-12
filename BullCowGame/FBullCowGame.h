@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <map>
+#define TMap std::map
 
 using FString = std::string;
 using int32 = int;
@@ -10,7 +12,6 @@ struct FBullCowCount {
 	int32 Cows = 0;
 };
 
-
 enum class EWordStatus {
 	Invalid,
 	OK,
@@ -18,7 +19,6 @@ enum class EWordStatus {
 	Wrong_Length,
 	Not_Lowercase
 };
-
 
 class FBullCowGame {
 public:
@@ -40,4 +40,7 @@ private:
 	int32 MyCurrentTry;
 	int32 MyMaxTries;
 	FString MyHiddenWord;
+	bool bGameWon;
+	bool IsIsogram(FString) const;
+	bool IsLowerCase(FString) const;
 };

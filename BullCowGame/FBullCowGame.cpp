@@ -7,28 +7,26 @@ FBullCowGame::FBullCowGame() { Reset(); }
 int32 FBullCowGame::GetMaxTries() const { return MyMaxTries;}
 int32 FBullCowGame::GetCurrentTry() const { return MyCurrentTry; }
 int32 FBullCowGame::GetHiddenWordLength() const { return MyHiddenWord.length(); }
+bool FBullCowGame::IsGameWon() const { return bGameWon; }
 
 void FBullCowGame::Reset() {
-	constexpr int32 MAX_TRIES = 8;
+	constexpr int32 MAX_TRIES = 3;
 	const FString HIDDEN_WORD = "planet";
 
 	MyMaxTries = MAX_TRIES;
 	MyHiddenWord = HIDDEN_WORD;
 	MyCurrentTry = 1;
+	bGameWon = false;
 	return;
-}
-
-bool FBullCowGame::IsGameWon() const {
-	return false;
 }
 
 EWordStatus FBullCowGame::CheckGuessValidity(FString Guess) const {
 	// Not isogram
-	if (false) {
+	if (!IsIsogram(Guess)) {
 		return EWordStatus::Not_Isogram;
 	}
 	// Not lowercase
-	else if (false) {
+	else if (!IsLowerCase(Guess)) {
 		return EWordStatus::Not_Lowercase;
 	}
 	// Size mismatch
@@ -41,12 +39,41 @@ EWordStatus FBullCowGame::CheckGuessValidity(FString Guess) const {
 	}
 }
 
+bool FBullCowGame::IsIsogram(FString Guess) const {
+	// Declare a map structure
+	TMap <char, bool> mchar;
+
+	// Iterate over every char of the word
+	for (auto Letter : Guess) {
+		Letter = tolower(Letter);
+		// Check if char appears on the map
+		if (mchar.count(Letter) == 0) {
+			// If not, then add to the map
+			mchar[Letter] = true;
+		}
+		else {
+			// Else word is not isogram
+			return false;
+		}
+	}
+
+	return true;
+}
+
+bool FBullCowGame::IsLowerCase(FString Guess) const {
+
+	// Iterate over guess
+	for (auto Letter : Guess) {
+		// If char is not lowercase return false
+		if (!islower(Letter)) { return false; };
+	}
+
+	return true;
+}
+
 // receives a VALID guess, incriments turn, and returns count
 FBullCowCount FBullCowGame::SubmitGuess(FString Guess) {
-	// incriment the turn number
 	MyCurrentTry++;
-
-	// setup a return variable
 	FBullCowCount BullCowCount;
 	
 	// loop through all letters in the guess
@@ -65,5 +92,7 @@ FBullCowCount FBullCowGame::SubmitGuess(FString Guess) {
 			}
 		}
 	}
+
+	bGameWon = (BullCowCount.Bulls == HiddenWordLength) ? true : false;
 	return BullCowCount;
 }
