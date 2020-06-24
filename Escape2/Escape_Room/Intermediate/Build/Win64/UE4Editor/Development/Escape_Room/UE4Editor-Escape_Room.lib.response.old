@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Escape_Room.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Escape_Room.cpp.obj"
+"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Escape_RoomGameModeBase.cpp.obj"
+"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Escape_Room.init.gen.cpp.obj"
+"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Escape_RoomGameModeBase.gen.cpp.obj"
+"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Default.rc2.res"
+/OUT:"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\UE4Editor-Escape_Room.lib"
+/INCLUDE:IMPLEMENT_MODULE_Escape_Room

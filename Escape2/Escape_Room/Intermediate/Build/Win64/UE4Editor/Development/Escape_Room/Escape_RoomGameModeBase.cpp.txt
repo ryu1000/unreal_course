@@ -1,7 +1,7 @@
-C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Definitions.Escape_Room.h
-C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Source\Escape_Room\Escape_RoomGameModeBase.h
+C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Definitions.Escape_Room.h
+C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Source\Escape_Room\Escape_RoomGameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Inc\Escape_Room\Escape_RoomGameModeBase.generated.h
+C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Inc\Escape_Room\Escape_RoomGameModeBase.generated.h

@@ -28,9 +28,9 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Inc\Escape_Room
-/I C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Source
-/I C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Source\Escape_Room
+/I C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Inc\Escape_Room
+/I C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Source
+/I C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Source\Escape_Room
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -429,17 +429,17 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Source\Escape_Room\Escape_Room.cpp"
-/FI"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Definitions.Escape_Room.h"
-/Fo"C:\Users\josec\projects\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Escape_Room.cpp.obj"
+/FI"C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\Escape_RoomEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Source\Escape_Room\Escape_Room.cpp"
+/FI"C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Definitions.Escape_Room.h"
+/Fo"C:\Users\josec\repos\unreal_course\Escape2\Escape_Room\Intermediate\Build\Win64\UE4Editor\Development\Escape_Room\Escape_Room.cpp.obj"
 /TP
 /GR-
 /W4
